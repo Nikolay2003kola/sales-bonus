@@ -11,7 +11,8 @@ function calculateSimpleRevenue(purchase, _product) {
         sale_price,
         quantity
     } = purchase;
-    return sale_price * (1 - (discount / 100)) * quantity;
+
+    return sale_price * quantity * (1 - (discount / 100));
 }
 
 /**
@@ -50,7 +51,7 @@ function analyzeSalesData(data, options) {
     const { calculateRevenue, calculateBonus } = options;
 
     // @TODO: Проверка входных данных
-    if (!data || !Array.isArray(data.sellers) || !Array.isArray(data.products) || !Array.isArray(data.purchase_records)) {
+    if (!data || !Array.isArray(data.sellers) || !Array.isArray(data.products) || !Array.isArray(data.purchase_records) || data.sellers.length === 0 || data.products.length === 0 || data.purchase_records.length === 0) {
         throw new Error('Некорректные входные данные');
     }
     // @TODO: Проверка наличия опций
@@ -82,8 +83,10 @@ function analyzeSalesData(data, options) {
             [item.sku]: item
         }), {})
         // @TODO: Расчет выручки и прибыли для каждого продавца
+
     data.purchase_records.forEach(record => {
         const seller = sellerIndex[record.seller_id]; //продавец в чеке 
+
         let index = sellerStats.reduce((acc, item, index) => {
             if (item.id === seller.id) {
                 return index;
@@ -93,6 +96,7 @@ function analyzeSalesData(data, options) {
         if (record.items.length > 0) {
             sellerStats[index].sales_count += 1;
         }
+
 
         record.items.forEach(item => {
             //считаем выручку 
