@@ -120,7 +120,7 @@ function analyzeSalesData(data, options) {
                 quantity: value[1]
             }
         });
-        seller.top_products.sort((a, b) => b.quantity - a.quantity)
+        seller.top_products.sort((a, b) => b.quantity - a.quantity);
         seller.top_products = seller.top_products.slice(0, 10);
     })
 
