@@ -93,8 +93,7 @@ function analyzeSalesData(data, options) {
         if (record.items.length > 0) {
             sellerStats[index].sales_count += 1;
         }
-        // Увеличить общую сумму всех продаж
-        // Расчёт прибыли для каждого товара
+
         record.items.forEach(item => {
             //считаем выручку 
             let cost_price = productIndex[item.sku].purchase_price * item.quantity;
