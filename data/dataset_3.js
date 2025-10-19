@@ -1,6 +1,5 @@
 const data = {
-    "customers": [
-        {
+    "customers": [{
             "id": "customer_1",
             "first_name": "Sergey",
             "last_name": "Mikhailov",
@@ -81,8 +80,7 @@ const data = {
             "position": "Analyst"
         }
     ],
-    "products": [
-        {
+    "products": [{
             "name": "Screwdriver #100",
             "category": "Paints",
             "sku": "SKU_001",
@@ -783,8 +781,7 @@ const data = {
             "sale_price": 260.56
         }
     ],
-    "sellers": [
-        {
+    "sellers": [{
             "id": "seller_1",
             "first_name": "Nikolai",
             "last_name": "Sidorov",
@@ -820,20 +817,17 @@ const data = {
             "position": "Seller"
         }
     ],
-    "purchase_records": [
-        {
+    "purchase_records": [{
             "receipt_id": "receipt_1",
             "date": "2023-12-04",
             "seller_id": "seller_4",
             "customer_id": "customer_1",
-            "items": [
-                {
-                    "sku": "SKU_001",
-                    "discount": 10.48,
-                    "quantity": 1,
-                    "sale_price": 1088.83
-                }
-            ],
+            "items": [{
+                "sku": "SKU_001",
+                "discount": 10.48,
+                "quantity": 1,
+                "sale_price": 1088.83
+            }],
             "total_amount": 974.72,
             "total_discount": 114.11
         },
@@ -842,8 +836,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_3",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_007",
                     "discount": 10.66,
                     "quantity": 3,
@@ -882,14 +875,12 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_4",
             "customer_id": "customer_1",
-            "items": [
-                {
-                    "sku": "SKU_060",
-                    "discount": 1.91,
-                    "quantity": 2,
-                    "sale_price": 224.18
-                }
-            ],
+            "items": [{
+                "sku": "SKU_060",
+                "discount": 1.91,
+                "quantity": 2,
+                "sale_price": 224.18
+            }],
             "total_amount": 439.8,
             "total_discount": 8.56
         },
@@ -898,14 +889,12 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_5",
             "customer_id": "customer_1",
-            "items": [
-                {
-                    "sku": "SKU_043",
-                    "discount": 4.6,
-                    "quantity": 2,
-                    "sale_price": 548.98
-                }
-            ],
+            "items": [{
+                "sku": "SKU_043",
+                "discount": 4.6,
+                "quantity": 2,
+                "sale_price": 548.98
+            }],
             "total_amount": 1047.45,
             "total_discount": 50.51
         },
@@ -914,14 +903,12 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_3",
             "customer_id": "customer_1",
-            "items": [
-                {
-                    "sku": "SKU_044",
-                    "discount": 6.49,
-                    "quantity": 1,
-                    "sale_price": 232.38
-                }
-            ],
+            "items": [{
+                "sku": "SKU_044",
+                "discount": 6.49,
+                "quantity": 1,
+                "sale_price": 232.38
+            }],
             "total_amount": 217.3,
             "total_discount": 15.08
         },
@@ -930,8 +917,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_2",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_010",
                     "discount": 0.1,
                     "quantity": 3,
@@ -964,8 +950,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_2",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_072",
                     "discount": 14.45,
                     "quantity": 1,
@@ -986,8 +971,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_5",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_044",
                     "discount": 7.66,
                     "quantity": 3,
@@ -1008,8 +992,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_1",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_024",
                     "discount": 4.26,
                     "quantity": 3,
@@ -1030,8 +1013,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_3",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_083",
                     "discount": 2.36,
                     "quantity": 1,
@@ -1064,8 +1046,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_5",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_018",
                     "discount": 11.84,
                     "quantity": 3,
@@ -1092,8 +1073,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_1",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_089",
                     "discount": 5.61,
                     "quantity": 1,
@@ -1120,8 +1100,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_2",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_051",
                     "discount": 14.03,
                     "quantity": 1,
@@ -1148,14 +1127,12 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_1",
             "customer_id": "customer_1",
-            "items": [
-                {
-                    "sku": "SKU_087",
-                    "discount": 6.32,
-                    "quantity": 2,
-                    "sale_price": 459.49
-                }
-            ],
+            "items": [{
+                "sku": "SKU_087",
+                "discount": 6.32,
+                "quantity": 2,
+                "sale_price": 459.49
+            }],
             "total_amount": 860.9,
             "total_discount": 58.08
         },
@@ -1164,8 +1141,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_1",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_088",
                     "discount": 0.01,
                     "quantity": 2,
@@ -1192,8 +1168,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_3",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_037",
                     "discount": 3.15,
                     "quantity": 2,
@@ -1214,8 +1189,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_2",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_075",
                     "discount": 9.87,
                     "quantity": 2,
@@ -1236,8 +1210,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_3",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_100",
                     "discount": 9.61,
                     "quantity": 1,
@@ -1264,14 +1237,12 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_3",
             "customer_id": "customer_1",
-            "items": [
-                {
-                    "sku": "SKU_071",
-                    "discount": 14.38,
-                    "quantity": 3,
-                    "sale_price": 208.95
-                }
-            ],
+            "items": [{
+                "sku": "SKU_071",
+                "discount": 14.38,
+                "quantity": 3,
+                "sale_price": 208.95
+            }],
             "total_amount": 536.71,
             "total_discount": 90.14
         },
@@ -1280,14 +1251,12 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_5",
             "customer_id": "customer_1",
-            "items": [
-                {
-                    "sku": "SKU_059",
-                    "discount": 3.95,
-                    "quantity": 1,
-                    "sale_price": 676.9
-                }
-            ],
+            "items": [{
+                "sku": "SKU_059",
+                "discount": 3.95,
+                "quantity": 1,
+                "sale_price": 676.9
+            }],
             "total_amount": 650.16,
             "total_discount": 26.74
         },
@@ -1296,8 +1265,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_2",
             "customer_id": "customer_1",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_013",
                     "discount": 6.81,
                     "quantity": 1,
@@ -1324,14 +1292,12 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_4",
             "customer_id": "customer_2",
-            "items": [
-                {
-                    "sku": "SKU_061",
-                    "discount": 11.46,
-                    "quantity": 1,
-                    "sale_price": 276.02
-                }
-            ],
+            "items": [{
+                "sku": "SKU_061",
+                "discount": 11.46,
+                "quantity": 1,
+                "sale_price": 276.02
+            }],
             "total_amount": 244.39,
             "total_discount": 31.63
         },
@@ -1340,8 +1306,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_5",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_006",
                     "discount": 6.16,
                     "quantity": 1,
@@ -1368,8 +1333,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_3",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_024",
                     "discount": 11.34,
                     "quantity": 1,
@@ -1396,8 +1360,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_5",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_055",
                     "discount": 6.09,
                     "quantity": 3,
@@ -1430,14 +1393,12 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_2",
             "customer_id": "customer_2",
-            "items": [
-                {
-                    "sku": "SKU_016",
-                    "discount": 0.11,
-                    "quantity": 1,
-                    "sale_price": 760.5
-                }
-            ],
+            "items": [{
+                "sku": "SKU_016",
+                "discount": 0.11,
+                "quantity": 1,
+                "sale_price": 760.5
+            }],
             "total_amount": 759.66,
             "total_discount": 0.84
         },
@@ -1446,8 +1407,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_1",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_069",
                     "discount": 0.4,
                     "quantity": 1,
@@ -1480,8 +1440,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_3",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_055",
                     "discount": 2.52,
                     "quantity": 2,
@@ -1502,8 +1461,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_5",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_063",
                     "discount": 9.04,
                     "quantity": 2,
@@ -1524,8 +1482,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_2",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_009",
                     "discount": 12.22,
                     "quantity": 1,
@@ -1552,8 +1509,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_2",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_073",
                     "discount": 2.66,
                     "quantity": 2,
@@ -1574,14 +1530,12 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_2",
             "customer_id": "customer_2",
-            "items": [
-                {
-                    "sku": "SKU_091",
-                    "discount": 10.63,
-                    "quantity": 1,
-                    "sale_price": 702.7
-                }
-            ],
+            "items": [{
+                "sku": "SKU_091",
+                "discount": 10.63,
+                "quantity": 1,
+                "sale_price": 702.7
+            }],
             "total_amount": 628,
             "total_discount": 74.7
         },
@@ -1590,8 +1544,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_012",
                     "discount": 0.24,
                     "quantity": 2,
@@ -1612,14 +1565,12 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_5",
             "customer_id": "customer_2",
-            "items": [
-                {
-                    "sku": "SKU_090",
-                    "discount": 0.48,
-                    "quantity": 1,
-                    "sale_price": 704.2
-                }
-            ],
+            "items": [{
+                "sku": "SKU_090",
+                "discount": 0.48,
+                "quantity": 1,
+                "sale_price": 704.2
+            }],
             "total_amount": 700.82,
             "total_discount": 3.38
         },
@@ -1628,8 +1579,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_3",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_001",
                     "discount": 4.77,
                     "quantity": 3,
@@ -1650,14 +1600,12 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_5",
             "customer_id": "customer_2",
-            "items": [
-                {
-                    "sku": "SKU_057",
-                    "discount": 2.02,
-                    "quantity": 3,
-                    "sale_price": 564.88
-                }
-            ],
+            "items": [{
+                "sku": "SKU_057",
+                "discount": 2.02,
+                "quantity": 3,
+                "sale_price": 564.88
+            }],
             "total_amount": 1660.41,
             "total_discount": 34.23
         },
@@ -1666,8 +1614,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_1",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_100",
                     "discount": 9.22,
                     "quantity": 3,
@@ -1694,14 +1641,12 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_5",
             "customer_id": "customer_2",
-            "items": [
-                {
-                    "sku": "SKU_078",
-                    "discount": 8.72,
-                    "quantity": 3,
-                    "sale_price": 1038.12
-                }
-            ],
+            "items": [{
+                "sku": "SKU_078",
+                "discount": 8.72,
+                "quantity": 3,
+                "sale_price": 1038.12
+            }],
             "total_amount": 2842.79,
             "total_discount": 271.57
         },
@@ -1710,8 +1655,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_3",
             "customer_id": "customer_2",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_011",
                     "discount": 1.41,
                     "quantity": 2,
@@ -1744,8 +1688,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_048",
                     "discount": 8.36,
                     "quantity": 2,
@@ -1766,8 +1709,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_2",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_017",
                     "discount": 9.85,
                     "quantity": 3,
@@ -1794,8 +1736,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_024",
                     "discount": 9.83,
                     "quantity": 3,
@@ -1816,8 +1757,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_2",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_047",
                     "discount": 0.26,
                     "quantity": 3,
@@ -1850,8 +1790,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_2",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_013",
                     "discount": 7.91,
                     "quantity": 3,
@@ -1878,14 +1817,12 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_4",
             "customer_id": "customer_3",
-            "items": [
-                {
-                    "sku": "SKU_095",
-                    "discount": 12.51,
-                    "quantity": 3,
-                    "sale_price": 856.26
-                }
-            ],
+            "items": [{
+                "sku": "SKU_095",
+                "discount": 12.51,
+                "quantity": 3,
+                "sale_price": 856.26
+            }],
             "total_amount": 2247.43,
             "total_discount": 321.35
         },
@@ -1894,8 +1831,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_3",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_020",
                     "discount": 4.87,
                     "quantity": 1,
@@ -1916,8 +1852,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_2",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_020",
                     "discount": 10.46,
                     "quantity": 2,
@@ -1944,8 +1879,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_2",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_083",
                     "discount": 7.53,
                     "quantity": 2,
@@ -1978,8 +1912,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_3",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_006",
                     "discount": 11.23,
                     "quantity": 3,
@@ -2012,8 +1945,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_093",
                     "discount": 4.03,
                     "quantity": 1,
@@ -2034,8 +1966,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_078",
                     "discount": 14.92,
                     "quantity": 1,
@@ -2062,8 +1993,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_2",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_073",
                     "discount": 6.58,
                     "quantity": 3,
@@ -2084,8 +2014,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_3",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_002",
                     "discount": 1.62,
                     "quantity": 3,
@@ -2118,8 +2047,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_014",
                     "discount": 1.03,
                     "quantity": 3,
@@ -2146,8 +2074,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_075",
                     "discount": 11.25,
                     "quantity": 1,
@@ -2174,8 +2101,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_046",
                     "discount": 7.69,
                     "quantity": 1,
@@ -2196,8 +2122,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_2",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_046",
                     "discount": 5.34,
                     "quantity": 1,
@@ -2218,8 +2143,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_3",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_010",
                     "discount": 5.64,
                     "quantity": 2,
@@ -2246,8 +2170,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_4",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_062",
                     "discount": 13.96,
                     "quantity": 2,
@@ -2268,8 +2191,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_022",
                     "discount": 13.23,
                     "quantity": 3,
@@ -2290,8 +2212,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_062",
                     "discount": 9.94,
                     "quantity": 1,
@@ -2330,8 +2251,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_5",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_097",
                     "discount": 3.54,
                     "quantity": 2,
@@ -2358,8 +2278,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_5",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_012",
                     "discount": 2.3,
                     "quantity": 1,
@@ -2386,8 +2305,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_013",
                     "discount": 3.34,
                     "quantity": 2,
@@ -2408,8 +2326,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_2",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_070",
                     "discount": 2.71,
                     "quantity": 3,
@@ -2436,8 +2353,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_012",
                     "discount": 0.78,
                     "quantity": 1,
@@ -2464,8 +2380,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_4",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_076",
                     "discount": 4.09,
                     "quantity": 2,
@@ -2498,8 +2413,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_1",
             "customer_id": "customer_3",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_080",
                     "discount": 0.18,
                     "quantity": 1,
@@ -2526,8 +2440,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_1",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_053",
                     "discount": 13.92,
                     "quantity": 3,
@@ -2548,8 +2461,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_2",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_065",
                     "discount": 7.61,
                     "quantity": 1,
@@ -2570,8 +2482,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_1",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_005",
                     "discount": 1.41,
                     "quantity": 1,
@@ -2598,8 +2509,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_4",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_011",
                     "discount": 9.24,
                     "quantity": 1,
@@ -2632,8 +2542,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_4",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_049",
                     "discount": 2.87,
                     "quantity": 2,
@@ -2660,14 +2569,12 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_2",
             "customer_id": "customer_4",
-            "items": [
-                {
-                    "sku": "SKU_089",
-                    "discount": 12.15,
-                    "quantity": 3,
-                    "sale_price": 914.62
-                }
-            ],
+            "items": [{
+                "sku": "SKU_089",
+                "discount": 12.15,
+                "quantity": 3,
+                "sale_price": 914.62
+            }],
             "total_amount": 2410.48,
             "total_discount": 333.38
         },
@@ -2676,8 +2583,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_3",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_084",
                     "discount": 8.84,
                     "quantity": 3,
@@ -2704,8 +2610,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_1",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_063",
                     "discount": 13.75,
                     "quantity": 2,
@@ -2732,8 +2637,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_5",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_067",
                     "discount": 0.14,
                     "quantity": 1,
@@ -2754,14 +2658,12 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_3",
             "customer_id": "customer_4",
-            "items": [
-                {
-                    "sku": "SKU_058",
-                    "discount": 3.97,
-                    "quantity": 2,
-                    "sale_price": 937.03
-                }
-            ],
+            "items": [{
+                "sku": "SKU_058",
+                "discount": 3.97,
+                "quantity": 2,
+                "sale_price": 937.03
+            }],
             "total_amount": 1799.66,
             "total_discount": 74.4
         },
@@ -2770,8 +2672,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_2",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_056",
                     "discount": 9.18,
                     "quantity": 1,
@@ -2804,8 +2705,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_2",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_028",
                     "discount": 11.92,
                     "quantity": 1,
@@ -2832,14 +2732,12 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_3",
             "customer_id": "customer_4",
-            "items": [
-                {
-                    "sku": "SKU_096",
-                    "discount": 3.5,
-                    "quantity": 3,
-                    "sale_price": 609.73
-                }
-            ],
+            "items": [{
+                "sku": "SKU_096",
+                "discount": 3.5,
+                "quantity": 3,
+                "sale_price": 609.73
+            }],
             "total_amount": 1765.17,
             "total_discount": 64.02
         },
@@ -2848,8 +2746,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_4",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_086",
                     "discount": 4.2,
                     "quantity": 2,
@@ -2876,8 +2773,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_2",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_013",
                     "discount": 14.11,
                     "quantity": 2,
@@ -2904,14 +2800,12 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_4",
-            "items": [
-                {
-                    "sku": "SKU_045",
-                    "discount": 3.5,
-                    "quantity": 3,
-                    "sale_price": 639.01
-                }
-            ],
+            "items": [{
+                "sku": "SKU_045",
+                "discount": 3.5,
+                "quantity": 3,
+                "sale_price": 639.01
+            }],
             "total_amount": 1849.93,
             "total_discount": 67.1
         },
@@ -2920,8 +2814,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_2",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_089",
                     "discount": 8.77,
                     "quantity": 3,
@@ -2942,8 +2835,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_3",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_071",
                     "discount": 11.77,
                     "quantity": 1,
@@ -2964,8 +2856,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_5",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_065",
                     "discount": 10.04,
                     "quantity": 1,
@@ -2986,8 +2877,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_5",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_022",
                     "discount": 11.06,
                     "quantity": 3,
@@ -3008,8 +2898,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_2",
             "customer_id": "customer_4",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_031",
                     "discount": 3.13,
                     "quantity": 1,
@@ -3030,8 +2919,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_4",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_097",
                     "discount": 5.33,
                     "quantity": 2,
@@ -3052,8 +2940,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_5",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_059",
                     "discount": 7.39,
                     "quantity": 3,
@@ -3080,8 +2967,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_3",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_016",
                     "discount": 13.7,
                     "quantity": 3,
@@ -3114,8 +3000,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_1",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_010",
                     "discount": 7.69,
                     "quantity": 1,
@@ -3136,8 +3021,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_2",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_029",
                     "discount": 1.4,
                     "quantity": 2,
@@ -3164,8 +3048,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_5",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_021",
                     "discount": 11.28,
                     "quantity": 1,
@@ -3186,8 +3069,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_4",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_079",
                     "discount": 2.04,
                     "quantity": 2,
@@ -3220,14 +3102,12 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_4",
             "customer_id": "customer_5",
-            "items": [
-                {
-                    "sku": "SKU_023",
-                    "discount": 5.63,
-                    "quantity": 1,
-                    "sale_price": 494.69
-                }
-            ],
+            "items": [{
+                "sku": "SKU_023",
+                "discount": 5.63,
+                "quantity": 1,
+                "sale_price": 494.69
+            }],
             "total_amount": 466.84,
             "total_discount": 27.85
         },
@@ -3236,14 +3116,12 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_5",
             "customer_id": "customer_5",
-            "items": [
-                {
-                    "sku": "SKU_049",
-                    "discount": 4.5,
-                    "quantity": 3,
-                    "sale_price": 235.73
-                }
-            ],
+            "items": [{
+                "sku": "SKU_049",
+                "discount": 4.5,
+                "quantity": 3,
+                "sale_price": 235.73
+            }],
             "total_amount": 675.37,
             "total_discount": 31.82
         },
@@ -3252,8 +3130,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_5",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_074",
                     "discount": 7.08,
                     "quantity": 3,
@@ -3274,14 +3151,12 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_1",
             "customer_id": "customer_5",
-            "items": [
-                {
-                    "sku": "SKU_023",
-                    "discount": 14.56,
-                    "quantity": 2,
-                    "sale_price": 509.65
-                }
-            ],
+            "items": [{
+                "sku": "SKU_023",
+                "discount": 14.56,
+                "quantity": 2,
+                "sale_price": 509.65
+            }],
             "total_amount": 870.89,
             "total_discount": 148.41
         },
@@ -3290,8 +3165,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_2",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_043",
                     "discount": 3.31,
                     "quantity": 1,
@@ -3312,8 +3186,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_5",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_036",
                     "discount": 14.01,
                     "quantity": 3,
@@ -3340,14 +3213,12 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_4",
             "customer_id": "customer_5",
-            "items": [
-                {
-                    "sku": "SKU_042",
-                    "discount": 11.62,
-                    "quantity": 2,
-                    "sale_price": 190.79
-                }
-            ],
+            "items": [{
+                "sku": "SKU_042",
+                "discount": 11.62,
+                "quantity": 2,
+                "sale_price": 190.79
+            }],
             "total_amount": 337.24,
             "total_discount": 44.34
         },
@@ -3356,14 +3227,12 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_5",
             "customer_id": "customer_5",
-            "items": [
-                {
-                    "sku": "SKU_007",
-                    "discount": 10.21,
-                    "quantity": 3,
-                    "sale_price": 341.96
-                }
-            ],
+            "items": [{
+                "sku": "SKU_007",
+                "discount": 10.21,
+                "quantity": 3,
+                "sale_price": 341.96
+            }],
             "total_amount": 921.14,
             "total_discount": 104.74
         },
@@ -3372,14 +3241,12 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_3",
             "customer_id": "customer_5",
-            "items": [
-                {
-                    "sku": "SKU_091",
-                    "discount": 11.1,
-                    "quantity": 2,
-                    "sale_price": 730.05
-                }
-            ],
+            "items": [{
+                "sku": "SKU_091",
+                "discount": 11.1,
+                "quantity": 2,
+                "sale_price": 730.05
+            }],
             "total_amount": 1298.03,
             "total_discount": 162.07
         },
@@ -3388,8 +3255,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_3",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_002",
                     "discount": 13.49,
                     "quantity": 1,
@@ -3410,8 +3276,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_1",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_020",
                     "discount": 9.98,
                     "quantity": 2,
@@ -3432,14 +3297,12 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_5",
             "customer_id": "customer_5",
-            "items": [
-                {
-                    "sku": "SKU_007",
-                    "discount": 5.25,
-                    "quantity": 2,
-                    "sale_price": 340.02
-                }
-            ],
+            "items": [{
+                "sku": "SKU_007",
+                "discount": 5.25,
+                "quantity": 2,
+                "sale_price": 340.02
+            }],
             "total_amount": 644.34,
             "total_discount": 35.7
         },
@@ -3448,8 +3311,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_3",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_046",
                     "discount": 0.57,
                     "quantity": 3,
@@ -3476,14 +3338,12 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_3",
             "customer_id": "customer_5",
-            "items": [
-                {
-                    "sku": "SKU_091",
-                    "discount": 7.23,
-                    "quantity": 2,
-                    "sale_price": 745.05
-                }
-            ],
+            "items": [{
+                "sku": "SKU_091",
+                "discount": 7.23,
+                "quantity": 2,
+                "sale_price": 745.05
+            }],
             "total_amount": 1382.37,
             "total_discount": 107.73
         },
@@ -3492,8 +3352,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_1",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_030",
                     "discount": 14.69,
                     "quantity": 1,
@@ -3514,8 +3373,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_4",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_040",
                     "discount": 5.36,
                     "quantity": 1,
@@ -3548,8 +3406,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_3",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_015",
                     "discount": 14.63,
                     "quantity": 3,
@@ -3570,8 +3427,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_5",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_064",
                     "discount": 10.77,
                     "quantity": 3,
@@ -3598,8 +3454,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_3",
             "customer_id": "customer_5",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_039",
                     "discount": 5.89,
                     "quantity": 2,
@@ -3620,8 +3475,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_4",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_014",
                     "discount": 0.31,
                     "quantity": 1,
@@ -3642,8 +3496,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_2",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_008",
                     "discount": 2.71,
                     "quantity": 2,
@@ -3676,14 +3529,12 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_1",
             "customer_id": "customer_6",
-            "items": [
-                {
-                    "sku": "SKU_066",
-                    "discount": 13.57,
-                    "quantity": 2,
-                    "sale_price": 852.02
-                }
-            ],
+            "items": [{
+                "sku": "SKU_066",
+                "discount": 13.57,
+                "quantity": 2,
+                "sale_price": 852.02
+            }],
             "total_amount": 1472.8,
             "total_discount": 231.24
         },
@@ -3692,14 +3543,12 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_3",
             "customer_id": "customer_6",
-            "items": [
-                {
-                    "sku": "SKU_048",
-                    "discount": 9.44,
-                    "quantity": 3,
-                    "sale_price": 908.71
-                }
-            ],
+            "items": [{
+                "sku": "SKU_048",
+                "discount": 9.44,
+                "quantity": 3,
+                "sale_price": 908.71
+            }],
             "total_amount": 2468.78,
             "total_discount": 257.35
         },
@@ -3708,8 +3557,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_1",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_005",
                     "discount": 6.81,
                     "quantity": 3,
@@ -3736,8 +3584,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_3",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_050",
                     "discount": 0.64,
                     "quantity": 3,
@@ -3770,8 +3617,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_2",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_091",
                     "discount": 14.41,
                     "quantity": 1,
@@ -3792,14 +3638,12 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_5",
             "customer_id": "customer_6",
-            "items": [
-                {
-                    "sku": "SKU_091",
-                    "discount": 11.37,
-                    "quantity": 3,
-                    "sale_price": 696.91
-                }
-            ],
+            "items": [{
+                "sku": "SKU_091",
+                "discount": 11.37,
+                "quantity": 3,
+                "sale_price": 696.91
+            }],
             "total_amount": 1853.01,
             "total_discount": 237.72
         },
@@ -3808,8 +3652,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_2",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_043",
                     "discount": 2.66,
                     "quantity": 1,
@@ -3842,8 +3685,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_3",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_016",
                     "discount": 4.67,
                     "quantity": 2,
@@ -3864,8 +3706,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_4",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_080",
                     "discount": 0.4,
                     "quantity": 2,
@@ -3892,8 +3733,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_4",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_094",
                     "discount": 14.64,
                     "quantity": 1,
@@ -3914,8 +3754,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_3",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_032",
                     "discount": 6.35,
                     "quantity": 1,
@@ -3936,8 +3775,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_3",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_032",
                     "discount": 8.08,
                     "quantity": 1,
@@ -3964,8 +3802,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_1",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_038",
                     "discount": 10.56,
                     "quantity": 1,
@@ -3998,8 +3835,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_006",
                     "discount": 11.09,
                     "quantity": 2,
@@ -4026,8 +3862,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_1",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_002",
                     "discount": 6.21,
                     "quantity": 2,
@@ -4048,8 +3883,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_3",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_050",
                     "discount": 4.66,
                     "quantity": 2,
@@ -4070,8 +3904,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_2",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_035",
                     "discount": 10.66,
                     "quantity": 1,
@@ -4092,14 +3925,12 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_1",
             "customer_id": "customer_6",
-            "items": [
-                {
-                    "sku": "SKU_011",
-                    "discount": 2.83,
-                    "quantity": 1,
-                    "sale_price": 455.82
-                }
-            ],
+            "items": [{
+                "sku": "SKU_011",
+                "discount": 2.83,
+                "quantity": 1,
+                "sale_price": 455.82
+            }],
             "total_amount": 442.92,
             "total_discount": 12.9
         },
@@ -4108,8 +3939,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_4",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_087",
                     "discount": 4.11,
                     "quantity": 1,
@@ -4130,8 +3960,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_4",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_052",
                     "discount": 14.84,
                     "quantity": 1,
@@ -4152,8 +3981,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_3",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_065",
                     "discount": 9.2,
                     "quantity": 2,
@@ -4180,8 +4008,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_5",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_056",
                     "discount": 9.07,
                     "quantity": 2,
@@ -4208,8 +4035,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_5",
             "customer_id": "customer_6",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_099",
                     "discount": 9.22,
                     "quantity": 1,
@@ -4230,8 +4056,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_040",
                     "discount": 2.62,
                     "quantity": 3,
@@ -4264,8 +4089,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_3",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_001",
                     "discount": 8.21,
                     "quantity": 3,
@@ -4292,14 +4116,12 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
-                    "sku": "SKU_007",
-                    "discount": 10.91,
-                    "quantity": 2,
-                    "sale_price": 340.29
-                }
-            ],
+            "items": [{
+                "sku": "SKU_007",
+                "discount": 10.91,
+                "quantity": 2,
+                "sale_price": 340.29
+            }],
             "total_amount": 606.33,
             "total_discount": 74.25
         },
@@ -4308,8 +4130,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_097",
                     "discount": 10.75,
                     "quantity": 1,
@@ -4330,8 +4151,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_3",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_099",
                     "discount": 13.1,
                     "quantity": 3,
@@ -4358,8 +4178,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_072",
                     "discount": 0.91,
                     "quantity": 3,
@@ -4386,8 +4205,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_1",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_023",
                     "discount": 2.09,
                     "quantity": 1,
@@ -4420,14 +4238,12 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_4",
             "customer_id": "customer_7",
-            "items": [
-                {
-                    "sku": "SKU_049",
-                    "discount": 14.34,
-                    "quantity": 1,
-                    "sale_price": 236.96
-                }
-            ],
+            "items": [{
+                "sku": "SKU_049",
+                "discount": 14.34,
+                "quantity": 1,
+                "sale_price": 236.96
+            }],
             "total_amount": 202.98,
             "total_discount": 33.98
         },
@@ -4436,8 +4252,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_059",
                     "discount": 4.28,
                     "quantity": 3,
@@ -4476,14 +4291,12 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
-                    "sku": "SKU_065",
-                    "discount": 6.24,
-                    "quantity": 1,
-                    "sale_price": 840.98
-                }
-            ],
+            "items": [{
+                "sku": "SKU_065",
+                "discount": 6.24,
+                "quantity": 1,
+                "sale_price": 840.98
+            }],
             "total_amount": 788.5,
             "total_discount": 52.48
         },
@@ -4492,8 +4305,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_5",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_066",
                     "discount": 13.35,
                     "quantity": 3,
@@ -4526,8 +4338,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_1",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_058",
                     "discount": 5.91,
                     "quantity": 3,
@@ -4566,8 +4377,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_1",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_028",
                     "discount": 8.57,
                     "quantity": 3,
@@ -4588,8 +4398,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_066",
                     "discount": 8.69,
                     "quantity": 3,
@@ -4610,8 +4419,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_3",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_061",
                     "discount": 11.15,
                     "quantity": 2,
@@ -4644,14 +4452,12 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_7",
-            "items": [
-                {
-                    "sku": "SKU_009",
-                    "discount": 3.1,
-                    "quantity": 3,
-                    "sale_price": 1054.81
-                }
-            ],
+            "items": [{
+                "sku": "SKU_009",
+                "discount": 3.1,
+                "quantity": 3,
+                "sale_price": 1054.81
+            }],
             "total_amount": 3066.33,
             "total_discount": 98.1
         },
@@ -4660,8 +4466,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_3",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_054",
                     "discount": 8.53,
                     "quantity": 1,
@@ -4688,8 +4493,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_5",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_028",
                     "discount": 13.28,
                     "quantity": 3,
@@ -4716,14 +4520,12 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_4",
             "customer_id": "customer_7",
-            "items": [
-                {
-                    "sku": "SKU_056",
-                    "discount": 6.17,
-                    "quantity": 3,
-                    "sale_price": 217.99
-                }
-            ],
+            "items": [{
+                "sku": "SKU_056",
+                "discount": 6.17,
+                "quantity": 3,
+                "sale_price": 217.99
+            }],
             "total_amount": 613.62,
             "total_discount": 40.35
         },
@@ -4732,8 +4534,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_019",
                     "discount": 13.19,
                     "quantity": 3,
@@ -4772,8 +4573,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_030",
                     "discount": 6.12,
                     "quantity": 2,
@@ -4800,8 +4600,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_1",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_077",
                     "discount": 8.46,
                     "quantity": 3,
@@ -4822,8 +4621,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_4",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_088",
                     "discount": 3.74,
                     "quantity": 2,
@@ -4850,8 +4648,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_2",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_004",
                     "discount": 8.11,
                     "quantity": 1,
@@ -4878,8 +4675,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_5",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_014",
                     "discount": 7.98,
                     "quantity": 3,
@@ -4912,8 +4708,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_5",
             "customer_id": "customer_7",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_018",
                     "discount": 9.41,
                     "quantity": 1,
@@ -4940,8 +4735,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_3",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_086",
                     "discount": 12.03,
                     "quantity": 3,
@@ -4968,14 +4762,12 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_5",
             "customer_id": "customer_8",
-            "items": [
-                {
-                    "sku": "SKU_038",
-                    "discount": 8.05,
-                    "quantity": 3,
-                    "sale_price": 694.01
-                }
-            ],
+            "items": [{
+                "sku": "SKU_038",
+                "discount": 8.05,
+                "quantity": 3,
+                "sale_price": 694.01
+            }],
             "total_amount": 1914.43,
             "total_discount": 167.6
         },
@@ -4984,8 +4776,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_2",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_020",
                     "discount": 12.13,
                     "quantity": 1,
@@ -5006,8 +4797,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_4",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_098",
                     "discount": 14.34,
                     "quantity": 1,
@@ -5034,8 +4824,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_1",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_094",
                     "discount": 8.1,
                     "quantity": 3,
@@ -5056,14 +4845,12 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_1",
             "customer_id": "customer_8",
-            "items": [
-                {
-                    "sku": "SKU_095",
-                    "discount": 4.57,
-                    "quantity": 1,
-                    "sale_price": 886.51
-                }
-            ],
+            "items": [{
+                "sku": "SKU_095",
+                "discount": 4.57,
+                "quantity": 1,
+                "sale_price": 886.51
+            }],
             "total_amount": 846,
             "total_discount": 40.51
         },
@@ -5072,8 +4859,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_1",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_071",
                     "discount": 12.03,
                     "quantity": 2,
@@ -5100,8 +4886,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_4",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_054",
                     "discount": 14.42,
                     "quantity": 2,
@@ -5128,8 +4913,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_2",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_048",
                     "discount": 7.99,
                     "quantity": 3,
@@ -5150,8 +4934,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_1",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_009",
                     "discount": 13.63,
                     "quantity": 2,
@@ -5178,8 +4961,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_2",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_071",
                     "discount": 11.96,
                     "quantity": 2,
@@ -5200,8 +4982,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_5",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_056",
                     "discount": 11.73,
                     "quantity": 3,
@@ -5222,8 +5003,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_4",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_084",
                     "discount": 10.62,
                     "quantity": 1,
@@ -5244,8 +5024,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_4",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_056",
                     "discount": 8.94,
                     "quantity": 3,
@@ -5266,8 +5045,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_090",
                     "discount": 11.21,
                     "quantity": 1,
@@ -5300,14 +5078,12 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_8",
-            "items": [
-                {
-                    "sku": "SKU_034",
-                    "discount": 1.67,
-                    "quantity": 2,
-                    "sale_price": 271.46
-                }
-            ],
+            "items": [{
+                "sku": "SKU_034",
+                "discount": 1.67,
+                "quantity": 2,
+                "sale_price": 271.46
+            }],
             "total_amount": 533.85,
             "total_discount": 9.07
         },
@@ -5316,8 +5092,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_2",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_035",
                     "discount": 5.46,
                     "quantity": 2,
@@ -5350,8 +5125,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_3",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_058",
                     "discount": 14.59,
                     "quantity": 2,
@@ -5384,8 +5158,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_4",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_012",
                     "discount": 0.09,
                     "quantity": 2,
@@ -5412,8 +5185,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_1",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_078",
                     "discount": 6.85,
                     "quantity": 3,
@@ -5440,8 +5212,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_5",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_041",
                     "discount": 9.7,
                     "quantity": 3,
@@ -5468,8 +5239,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_1",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_008",
                     "discount": 6.03,
                     "quantity": 1,
@@ -5490,14 +5260,12 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_2",
             "customer_id": "customer_8",
-            "items": [
-                {
-                    "sku": "SKU_081",
-                    "discount": 7.44,
-                    "quantity": 1,
-                    "sale_price": 976.62
-                }
-            ],
+            "items": [{
+                "sku": "SKU_081",
+                "discount": 7.44,
+                "quantity": 1,
+                "sale_price": 976.62
+            }],
             "total_amount": 903.96,
             "total_discount": 72.66
         },
@@ -5506,8 +5274,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_1",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_015",
                     "discount": 6.15,
                     "quantity": 3,
@@ -5534,8 +5301,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_5",
             "customer_id": "customer_8",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_003",
                     "discount": 12.82,
                     "quantity": 1,
@@ -5562,8 +5328,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_2",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_060",
                     "discount": 9.67,
                     "quantity": 3,
@@ -5584,8 +5349,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_2",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_094",
                     "discount": 7.91,
                     "quantity": 1,
@@ -5612,8 +5376,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_2",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_011",
                     "discount": 6.94,
                     "quantity": 3,
@@ -5640,8 +5403,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_4",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_074",
                     "discount": 10.57,
                     "quantity": 1,
@@ -5662,8 +5424,7 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_3",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_076",
                     "discount": 11.17,
                     "quantity": 1,
@@ -5684,8 +5445,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_1",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_034",
                     "discount": 2.01,
                     "quantity": 2,
@@ -5706,8 +5466,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_4",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_038",
                     "discount": 9.08,
                     "quantity": 1,
@@ -5734,8 +5493,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_2",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_070",
                     "discount": 4.02,
                     "quantity": 2,
@@ -5756,8 +5514,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_5",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_046",
                     "discount": 0.3,
                     "quantity": 1,
@@ -5778,8 +5535,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_5",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_047",
                     "discount": 10.4,
                     "quantity": 2,
@@ -5800,8 +5556,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_1",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_092",
                     "discount": 0.14,
                     "quantity": 2,
@@ -5828,8 +5583,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_5",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_094",
                     "discount": 8.19,
                     "quantity": 1,
@@ -5856,14 +5610,12 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_5",
             "customer_id": "customer_9",
-            "items": [
-                {
-                    "sku": "SKU_093",
-                    "discount": 4.24,
-                    "quantity": 3,
-                    "sale_price": 324.55
-                }
-            ],
+            "items": [{
+                "sku": "SKU_093",
+                "discount": 4.24,
+                "quantity": 3,
+                "sale_price": 324.55
+            }],
             "total_amount": 932.37,
             "total_discount": 41.28
         },
@@ -5872,8 +5624,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_3",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_041",
                     "discount": 13.85,
                     "quantity": 3,
@@ -5894,8 +5645,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_1",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_091",
                     "discount": 11.69,
                     "quantity": 1,
@@ -5928,14 +5678,12 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_2",
             "customer_id": "customer_9",
-            "items": [
-                {
-                    "sku": "SKU_084",
-                    "discount": 12.4,
-                    "quantity": 1,
-                    "sale_price": 154.06
-                }
-            ],
+            "items": [{
+                "sku": "SKU_084",
+                "discount": 12.4,
+                "quantity": 1,
+                "sale_price": 154.06
+            }],
             "total_amount": 134.96,
             "total_discount": 19.1
         },
@@ -5944,8 +5692,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_2",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_071",
                     "discount": 14.31,
                     "quantity": 2,
@@ -5966,8 +5713,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_2",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_022",
                     "discount": 10.09,
                     "quantity": 1,
@@ -5988,14 +5734,12 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_4",
             "customer_id": "customer_9",
-            "items": [
-                {
-                    "sku": "SKU_039",
-                    "discount": 10.09,
-                    "quantity": 1,
-                    "sale_price": 266.59
-                }
-            ],
+            "items": [{
+                "sku": "SKU_039",
+                "discount": 10.09,
+                "quantity": 1,
+                "sale_price": 266.59
+            }],
             "total_amount": 239.69,
             "total_discount": 26.9
         },
@@ -6004,8 +5748,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_3",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_075",
                     "discount": 14.2,
                     "quantity": 1,
@@ -6026,8 +5769,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_2",
             "customer_id": "customer_9",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_004",
                     "discount": 14.96,
                     "quantity": 3,
@@ -6060,8 +5802,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_3",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_007",
                     "discount": 11.79,
                     "quantity": 2,
@@ -6100,8 +5841,7 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_066",
                     "discount": 7.36,
                     "quantity": 3,
@@ -6140,14 +5880,12 @@ const data = {
             "date": "2023-12-04",
             "seller_id": "seller_4",
             "customer_id": "customer_10",
-            "items": [
-                {
-                    "sku": "SKU_034",
-                    "discount": 6.19,
-                    "quantity": 2,
-                    "sale_price": 280.3
-                }
-            ],
+            "items": [{
+                "sku": "SKU_034",
+                "discount": 6.19,
+                "quantity": 2,
+                "sale_price": 280.3
+            }],
             "total_amount": 525.9,
             "total_discount": 34.7
         },
@@ -6156,8 +5894,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_3",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_088",
                     "discount": 11.38,
                     "quantity": 2,
@@ -6190,8 +5927,7 @@ const data = {
             "date": "2024-01-04",
             "seller_id": "seller_5",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_082",
                     "discount": 14.57,
                     "quantity": 2,
@@ -6218,14 +5954,12 @@ const data = {
             "date": "2024-02-04",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
-                    "sku": "SKU_020",
-                    "discount": 7.76,
-                    "quantity": 3,
-                    "sale_price": 420.99
-                }
-            ],
+            "items": [{
+                "sku": "SKU_020",
+                "discount": 7.76,
+                "quantity": 3,
+                "sale_price": 420.99
+            }],
             "total_amount": 1164.96,
             "total_discount": 98.01
         },
@@ -6234,8 +5968,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_094",
                     "discount": 14.62,
                     "quantity": 2,
@@ -6262,8 +5995,7 @@ const data = {
             "date": "2024-03-04",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_055",
                     "discount": 5.18,
                     "quantity": 1,
@@ -6290,8 +6022,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_4",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_097",
                     "discount": 9.8,
                     "quantity": 2,
@@ -6318,8 +6049,7 @@ const data = {
             "date": "2024-04-03",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_025",
                     "discount": 5.97,
                     "quantity": 1,
@@ -6346,14 +6076,12 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_3",
             "customer_id": "customer_10",
-            "items": [
-                {
-                    "sku": "SKU_019",
-                    "discount": 13.63,
-                    "quantity": 2,
-                    "sale_price": 363.56
-                }
-            ],
+            "items": [{
+                "sku": "SKU_019",
+                "discount": 13.63,
+                "quantity": 2,
+                "sale_price": 363.56
+            }],
             "total_amount": 628.01,
             "total_discount": 99.11
         },
@@ -6362,8 +6090,7 @@ const data = {
             "date": "2024-05-03",
             "seller_id": "seller_3",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_045",
                     "discount": 12.42,
                     "quantity": 2,
@@ -6384,8 +6111,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_3",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_002",
                     "discount": 11.35,
                     "quantity": 1,
@@ -6406,8 +6132,7 @@ const data = {
             "date": "2024-06-03",
             "seller_id": "seller_4",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_036",
                     "discount": 9.5,
                     "quantity": 3,
@@ -6428,8 +6153,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_081",
                     "discount": 1.22,
                     "quantity": 2,
@@ -6450,8 +6174,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_031",
                     "discount": 8.49,
                     "quantity": 3,
@@ -6478,8 +6201,7 @@ const data = {
             "date": "2024-07-03",
             "seller_id": "seller_4",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_083",
                     "discount": 11.11,
                     "quantity": 2,
@@ -6506,8 +6228,7 @@ const data = {
             "date": "2024-08-03",
             "seller_id": "seller_4",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_077",
                     "discount": 3.79,
                     "quantity": 2,
@@ -6534,8 +6255,7 @@ const data = {
             "date": "2024-09-03",
             "seller_id": "seller_5",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_027",
                     "discount": 0.58,
                     "quantity": 2,
@@ -6562,8 +6282,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_3",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_030",
                     "discount": 12.83,
                     "quantity": 2,
@@ -6584,8 +6303,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_5",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_096",
                     "discount": 9.27,
                     "quantity": 2,
@@ -6612,8 +6330,7 @@ const data = {
             "date": "2024-10-03",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_045",
                     "discount": 2.26,
                     "quantity": 2,
@@ -6640,8 +6357,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_009",
                     "discount": 5.01,
                     "quantity": 1,
@@ -6662,8 +6378,7 @@ const data = {
             "date": "2024-11-04",
             "seller_id": "seller_2",
             "customer_id": "customer_10",
-            "items": [
-                {
+            "items": [{
                     "sku": "SKU_014",
                     "discount": 2.44,
                     "quantity": 2,
